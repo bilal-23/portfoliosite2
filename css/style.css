@@ -507,6 +507,9 @@ padding: 0.7rem 1rem;
    .nav-bar .nav-list ul li{
        display: inline-block;
    }
+    .nav-bar .nav-list.open ul{
+    transform: translateY(0px);
+}
     .hero{
         flex-direction: row;
         height: 100vh;
